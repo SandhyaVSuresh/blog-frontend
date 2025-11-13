@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
-import AnimatedBackground from "../../componets/AnimatedBackground";
+import AnimatedBackground from "../../components/AnimatedBackground";
 import { postAPI } from "../../config/post-api";
 
 export default function LoginPage() {

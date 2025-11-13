@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import AnimatedBackground from "../../componets/AnimatedBackground";
+import AnimatedBackground from "../../components/AnimatedBackground";
 import { useSearchParams } from "next/navigation";
 import { use, useState, useEffect } from "react";
 import { useRouter } from "next/navigation";

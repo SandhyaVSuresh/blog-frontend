@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import AnimatedBackground from "../../componets/AnimatedBackground";
+import AnimatedBackground from "../../components/AnimatedBackground";
 import { postAPI } from "../../config/post-api";
 
 export default function SignupPage() {

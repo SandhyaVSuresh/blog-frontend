@@ -1,10 +1,10 @@
 "use client";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import Navbar from "./componets/Navbar";
-import PostCard from "./componets/PostCard";
+import Navbar from "./components/Navbar";
+import PostCard from "./components/PostCard";
 import { motion } from "framer-motion";
-import AnimatedBackground from "./componets/AnimatedBackground";
+import AnimatedBackground from "./components/AnimatedBackground";
 import { getAPI } from "./config/get-api";
 
 interface Post {

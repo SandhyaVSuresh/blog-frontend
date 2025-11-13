@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "app/componets/PostCard.jsx", "app/post/[id]/page.jsx", "app/edit/[id]/page.jsx", "app/create/page.jsx"  ],
+, "app/components/PostCard.jsx", "app/post/[id]/page.jsx", "app/edit/[id]/page.jsx", "app/create/page.jsx"  ],
   "exclude": ["node_modules"]
 }

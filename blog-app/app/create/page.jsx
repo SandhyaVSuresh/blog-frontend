@@ -1,8 +1,8 @@
 "use client";
 import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
-import PostForm from "../componets/PostForm";
-import AnimatedBackground from "../componets/AnimatedBackground";
+import PostForm from "../components/PostForm";
+import AnimatedBackground from "../components/AnimatedBackground";
 import { postAPI } from "../config/post-api";
 import { checkAuth } from "../utils/authCheck";
 

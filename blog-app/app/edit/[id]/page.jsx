@@ -1,8 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
 import { useRouter, useParams } from "next/navigation";
-import PostForm from "../../componets/PostForm";
-import AnimatedBackground from "../../componets/AnimatedBackground";
+import PostForm from "../../components/PostForm";
+import AnimatedBackground from "../../components/AnimatedBackground";
 import { getAPI } from "../../config/get-api";
 import { patchAPI } from "../../config//patch-api";
 import { toast } from "react-hot-toast";
