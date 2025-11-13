@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "framer-motion": "^12.23.24"
+    "framer-motion": "^12.23.24",
+    "vercel-build": "cd blog-app && npm install && npm run build"
   }
 }
